@@ -1,0 +1,15 @@
+import React from 'react'
+function Header(props)
+{
+    console.warn(props.data)
+    return(
+        <div>
+             <div className="add-to-cart">
+    <span className="cart-count">{props.data.length}</span>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAgVBMVEX///8CAgLY2NhFRUX19fX8/PxKSkr5+fkEBAQsLCwTExMcHBwWFhYlJSUICAgpKSnt7e2AgIDj4+NBQUGHh4fc3NzR0dGQkJBfX18aGhowMDCvr6/n5+c6OjpwcHB4eHjGxsaWlpajo6NTU1O9vb1lZWWlpaWzs7NaWlrBwcGbm5t9cLXyAAAEQUlEQVR4nO3caXeiMBgF4KCmotatLlXca23H/v8fONoRcCFgbd7lMPf5MvOhnpNbbgkmgDEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACDEmtpw0W1ciVZz6YH58xJkG0sPzJuBI2FQOxzfMnAdwiB4kx6aJ2tnwoH00DwZORMGZTnZVJ0Jv6SH5ofN+EMM//2zkB6bH9b0htF0+pyaJklfpAdHpR8n3EiPhMo4ThiVZEa81YwjjqRHQiWp6av0SKic1bSskgmjIj0SKv04YUlratOatqXHQqYVR6yUdcIYxpdvQ+mRUElq2izrMbTtOGJ5FjOuDOOE5a9pq6wtTa9Ny1/TvvNHbJH6T1jDfFJLatqJoqibap9pnST/OXhupjoZwtslhdNZeze3vBGn8ZTIpl1nDZjWlA/zn3yl9AlNlz1hjzkhe023zAH5azrjTsheU+6SGvPKG7DKHpC7pvy7eTb9ps9CYquLtaYi25U5e4v+yezlRYwJZXYQ2GoaSm1WstU0FFt75qup1FLChiug2OI6W02llvSsaTAllCqp5TqbdoQCmrybwjw6bo/ILcvy1FRyJ3bDEbAtuf/DcjaV3RxZMCSUvV1gQx9Q9JYPy1FT6fsh6GsqfevVhjpgVzgg/aQvXVL6mkqX1Jgv2oDiJSWvqXxJqWuq4e5A0po2pNMdEdZUbgnqkvPZKA80lJS0pl0dN84R1lRHSSlrqqOkxrxRBWxJJ4vNqRJqKSndpK+lpEQ1DTVck8aIaqqnpMY8kSTUU1JjPigCqrgmPbEkNdV1EzlFTXXdYU1QU2XPHBHUVFdJ8x5rf5SuklLUVDrRtZ7vgNpK6v9squ9x/5nfgPy3BBdKa7p4cqkWGRxVt7vhSMfyxaVtnNDLBbPCgGlNRffdKaWTflleXXNjq/gs4UdS04n0SKikZ9Oa9FCoJDVdS4+EyqmmYc6TpYV0n4aTmkaVx8zr2iMmNX3U824vnSHf528THnTXhvmJ3x+wq98HDIOgrzWhtZPfB/ymdj5deXu0e6XzfPPuKd7Ru3SYDNb6fFqvo/EYfmZ39KHihiov3l1zYaVeyzFy/AqepOPcsq7j8ZH7MefqDv+DzUWcNwuvcj5k0xf4XddU23pwzvt4/+R8yBrnFKrvbOqcK/LfhbB1nYr0JRxnDzQIdjkfsmbp+pi+K3Dn5lP+6vzG9TH5W4NvuIaaX7e9o6VN5vftFHOeFQvWbLInmTBYKrwydbxFIm+yOHL8YvRNFodf+S7rWBRuIfUyL+zYX0Zzl4wdxPCOF0Znbq0qXTXf3x6Oe77LLoOLzx3/q28y/GZvl2kmd5wurL2pt8YvFifjy++Id22z2etJsTlWeB5N1M/u+Z7cP2m/nF2ebtTNhOesNXY9fIoag+Wsd/+i4OEHe7NltRFt+3vFhw8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA4P/1Fxf/QYAdLYVxAAAAAElFTkSuQmCC" />
+            </div>
+        </div>
+    )
+}
+
+export default Header
