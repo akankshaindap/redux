@@ -58,14 +58,15 @@
     position: absolute;
     right: 1%;
     top: 1%;
+    z-index: 0;
 }
 .cart-count{
   
     position: absolute;
-    right: 10px;
+    right: 12px;
     top: 12px;
     z-index: 1;
-    background-color: red;
+    background-color: rgb(219, 36, 36);
     padding: 7px;
     width: 20px;
     height: 20px;
